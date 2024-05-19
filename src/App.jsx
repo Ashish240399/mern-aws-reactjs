@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <h1 style={{color:"red"}}>{data}</h1>
+      <h1 style={{color:"pink"}}>{data}</h1>
     </>
   )
 }
