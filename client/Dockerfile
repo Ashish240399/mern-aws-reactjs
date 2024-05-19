@@ -19,9 +19,6 @@ RUN rm -rf *
 
 COPY --from=build /app/build .
 
-# Copy the default nginx.conf provided by tiangolo/node-frontend
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-
 EXPOSE 80
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
