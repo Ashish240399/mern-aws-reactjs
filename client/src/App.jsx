@@ -10,7 +10,7 @@ function App() {
   }, [])
 
   async function getData() {
-    const response = await fetch("http://16.170.244.148:8900/hello");
+    const response = await fetch("http://16.170.244.148:8901/hello");
   
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
